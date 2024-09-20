@@ -1,26 +1,49 @@
-table {
-    width: 60%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+body {
+    background-size: cover;
 }
 
-td {
-    font-weight: bold;
+header {
+    background: url("/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
 }
 
-th {
-    background-color: #76c279;
-    color: rgb(0, 0, 0);
+.contenedor-logo {
+    height: 100%;
+    width: 30%;
+    float: left;
 }
 
-tfoot {
-    font-weight: bold;
-    background-color: #f2f2f2;
+.logo {
+    height: 100%;
+
+}
+
+nav {
+    width: 70%;
+    display: inline-block;
+    line-height: 15vh;
+    text-align: right;
+}
+
+nav .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 25px;
+    margin-right: 20px;
+}
+
+.link:hover,
+.activo {
+    border-bottom: 2px solid #fff;
 }
